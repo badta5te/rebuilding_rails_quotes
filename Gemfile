@@ -1,3 +1,11 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
 
-gem "rulers"
+source "https://rubygems.org"
+
+gem "rulers", path: "../rulers"
+
+gem "puma"
+
+group :development do
+  gem "rerun"
+end
