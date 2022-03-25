@@ -1,4 +1,4 @@
-q # frozen_string_literal: true
+# frozen_string_literal: true
 
 class HomeController < Rulers::Controller
   def index
