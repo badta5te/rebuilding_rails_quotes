@@ -1,0 +1,6 @@
+<h1>Quotes by <%= quotes.first["submitter"] %></h1>
+<ul>
+  <% quotes.each do |q| %>
+    <li><%= q["quote"] %></li>
+  <% end %>
+</ul>
